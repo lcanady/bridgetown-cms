@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qualities",
+  "info": {
+    "singularName": "quality",
+    "pluralName": "qualities",
+    "displayName": "Quality",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "values": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "sphere": {
+      "type": "string"
+    },
+    "locked": {
+      "type": "boolean",
+      "default": false
+    },
+    "template": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
